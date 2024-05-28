@@ -5,7 +5,7 @@
 * [漢リポ Kanseki Repository](http://www.kanripo.org/)
 * [漢リポ Kanseki Repository Github repo](https://github.com/kanripo)
 
-## 방법
+## Usage
 
 create `Kanseki_Repository.gitmodules` file
 
@@ -19,20 +19,21 @@ clone submodules
 bash git_clone_Kanseki_Repository.sh
 ```
 
-## check
+## Submodules
+
+### Check
 
 ```bash
 git submodule status
 ```
 
-## update
+### Update
 
 ```bash
-git submodule
 git submodule update --remote
 ```
 
-## Remove Submodule
+### Remove
 
 REF: [How do I revert my changes to a git submodule?](https://stackoverflow.com/a/27415757)
 
@@ -54,8 +55,7 @@ rm -rf .git/modules
 git commit -m "Removed all submodules"
 ```
 
-
-## RESET Submodules
+### Reset
 
 REF: [How do I revert my changes to a git submodule?](https://stackoverflow.com/a/27415757)
 
