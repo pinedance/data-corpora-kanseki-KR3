@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 합칠 텍스트 파일의 경로와 이름을 설정합니다.
-OUTPUT_FILE="TMP/KR3e_merged.txt"
+OUTPUT_FILE="DIST/한적_자부_의가류_merged.txt"
 INPUT_FILE="의가류"
 
 # 기존의 파일이 있다면 삭제합니다.
