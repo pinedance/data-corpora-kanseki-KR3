@@ -66,3 +66,10 @@ git submodule update --init
 ```
 
 REF: https://unstop.com/blog/git-submodule
+
+## Download Data from git repo
+
+```bash
+curl -L -o corpora.txt "https://github.com/pinedance/data-corpora-kanseki-KR3/raw/main/DIST/KR3e_merged.txt"
+```
+
